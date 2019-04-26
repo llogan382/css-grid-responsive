@@ -14,6 +14,7 @@ img {
 
 .top {
   display: grid;
+  grid-gap: 20px;
   grid-template-areas: 
   "hero hero cta1"
   "hero hero cta2"
@@ -36,9 +37,20 @@ img {
   background: var(--yellow);
 }
 
+.cta {
+  background: var(--yellow);
+  display: grid;
+  place-items: center center;
+  align-content: center;
+}
 .cta1 {
  grid-area: cta1;
 }
 .cta2{
   grid-area: cta2;
+}
+
+.price {
+  font-size: 60px;
+  font-weight: 300;
 }
