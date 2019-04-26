@@ -12,3 +12,20 @@ img {
   max-width: 100%;
 }
 
+.top {
+  display: grid;
+  grid-template-areas: 
+  "hero hero cta1"
+  "hero hero cta2"
+}
+
+.hero {
+  grid-area: hero;
+}
+
+.cta1 {
+ grid-area: cta1;
+}
+.cta2{
+  grid-area: cta2;
+}
